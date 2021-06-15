@@ -73,7 +73,7 @@ class Midea extends utils.Adapter {
                 loginAccount: this.config.user,
                 clientType: "1",
                 src: "17",
-                appId: "1117",
+                appId: "1114",
                 format: "2",
                 stamp: this.getStamp(),
                 language: "de_DE",
@@ -118,7 +118,7 @@ class Midea extends utils.Adapter {
                             language: "de_DE",
                             password: password,
                             clientType: "1",
-                            appId: "1117",
+                            appId: "1114",
                         };
                         const url = "https://mapp.appsmb.com/v1/user/login";
                         const sign = this.getSign(url, form);
